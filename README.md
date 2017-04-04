@@ -1,15 +1,15 @@
 # MaimaiCrawler
 抓取社交应用脉脉的匿名消息
 
-##1. 创建Mysql数据库，并将配置写入mysql_io.py文件
+## 1. 创建Mysql数据库，并将配置写入mysql_io.py文件
 
-##2. 运行
+## 2. 运行
 ```bash
 python crawler.py
 ```
 
-##附
-###Ubuntu服务器上Selenium Chromedriver环境的安装：
+## 附
+### Ubuntu服务器上Selenium Chromedriver环境的安装：
 
 1. 安装selenium
 ```bash
