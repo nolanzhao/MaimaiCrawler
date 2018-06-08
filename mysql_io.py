@@ -38,7 +38,7 @@ def save_db(g):
         cursor.execute(sql)
         db.commit()
     except Exception as e:
-        print e
+        print(str(e))
         db.rollback()
 
     return True
